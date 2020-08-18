@@ -30,7 +30,7 @@ extern uint8_t  g_carSpeedThreshold;
 #define   VEL_GATE			 (15.0) //   KM/H		V_car < 20 KM/H
 #define   VEL_GATE_ONE       (15.0) //   KM/H		V_car > 20 KM/H &&	V_car < 30 KM/H
 #define   VEL_GATE_TWO       (15.0) //   KM/H		V_car > 30 KM/H &&   V_car < 100 KM/H
-#define   VEL_GATE_THR       (15.0) //   KM/H		V_car > 100 KM/H
+#define   VEL_GATE_THR       (20.0) //   KM/H		V_car > 100 KM/H
 
 #define   SCANNUMBER        (16)    //(8) (6)       
 #define   CONFNUMBER        (6)     //(5) (4)    
